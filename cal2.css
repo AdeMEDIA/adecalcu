@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Light peach background */
+    height: 100vh; /* Full viewport height */
+}
+
+.calculator {
+    border: 1px solid #ffb366; /* Darker peach border */
+    padding: 20px;
+    border-radius: 16px;
+    background: #ffedb3; /* Light yellow background */
+    box-shadow: 0px 8px 15px rgba(255, 179, 102, 0.4); /* Peachy box-shadow */
+    margin-top: 30px;
+    width: 340px; /* Adjusted width for a better fit */
+}
+h1 {
+    text-align: center;
+    color: #ff4d00;
+    border: 1px dotted burlywood;
+    border-radius: 50%;
+}
+input {
+    width: 100%;
+    border: 1px solid #ff8c1a; /* Darker orange border */
+    padding: 18px; /* Adjusted padding for better appearance */
+    margin: 10px 0;
+    background: #ffdbb5; /* Light peach background */
+    box-shadow: 0 5px 10px rgba(255, 140, 26, 0.1); /* Light orange box-shadow */
+    font-size: 36px; /* Adjusted font size */
+    text-align: right;
+    cursor: pointer;
+    color: #404040; /* Dark grey text color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+input::placeholder {
+    color: #404040; /* Dark grey placeholder text color */
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px 5px; /* Adjusted margin for better spacing */
+    border-radius: 50%;
+    background: #ff8c1a; /* Dark orange background */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.8), 4px 4px 8px rgba(0, 0, 0, 0.1); /* Inner shadow effect */
+}
+
+.equalBtn {
+    background-color: #ff4d00; /* Brighter orange for the equal button */
+}
+
+.operator {
+    color: #404040; /* Dark grey operator text color */
+}
